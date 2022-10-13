@@ -4,7 +4,7 @@
 Website written by me based on the Figma template
 
 
-## Demo
+## 🐱‍🏍 Demo
 
 **https://L3chit.dev**
 
@@ -13,7 +13,7 @@ Website written by me based on the Figma template
 HTML, CSS
 
 
-## Authors
+## 👨🏼‍💻 Authors
 
 - [@L3chit](https://www.github.com/l3chit)
 
