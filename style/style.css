@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
+*,
+body {
+	scroll-behavior: smooth;
+	font-family: 'Monda', sans-serif;
+	background-color: rgba(24, 22, 22, 1);
+	margin: 0 auto;
+	padding: 0;
+	color: rgba(105, 105, 105, 1);
+	font-weight: 400;
+	word-wrap: break-word;
+}
+
+body {
+	width: 90%;
+	height: 100%;
+	margin: 2.5%;
+}
+
+h1 {
+	color: rgba(61, 255, 219, 1);
+	font-size: 49pt;
+	font-weight: 700;
+}
+
+h2 {
+	color: rgba(105, 105, 105, 1);
+	font-size: 35pt;
+}
+
+h3 {
+	color: rgba(105, 105, 105, 1);
+	font-size: 24pt;
+}
+
+h4 {
+	font-size: 15pt;
+}
+
+/*
+h4::before{
+	content: '<li>';
+}
+h4::after{
+	content: '</li>';
+}
+*/
+.sec_head {
+	color: rgba(0, 148, 255, 1);
+	font-style: normal;
+}
+
+.title {
+	color: rgba(255, 255, 255, 1);
+	font-style: normal;
+}
+
+nav,
+article {
+	width: 95%;
+	margin: 15pt;
+}
+
+nav,
+article::after {
+	display: block;
+	color: rgba(105, 105, 105, 1);
+	font-size: 24pt;
+	font-weight: 400;
+}
+
+nav::after {
+	content: '</nav>';
+}
+
+#pro::after {
+	content: '</projekty>';
+}
+
+#exp::after {
+	content: '</doświadczenie>';
+}
+
+#edu::after {
+	content: '</edukacja>';
+}
+
+#con::after {
+	content: '</kontakt>';
+}
+
+#foot::after {
+	content: '</stopka>';
+}
+
+ul>li {
+	margin-left: 7.25%;
+	list-style-type: none;
+}
+
+.first_color {
+	color: rgba(61, 255, 219, 1);
+}
+
+.second_color {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: inherit;
+}
+
+a {
+	color: inherit;
+	/* blue colors for links too */
+	text-decoration: inherit;
+	/* no underline */
+}
+
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+	scrollbar-width: auto;
+	scrollbar-color: #000000 #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+	background: rgba(24, 22, 22, 1);
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgba(61, 255, 219, 1);
+	border-radius: 25px;
+	border: 0;
+}
