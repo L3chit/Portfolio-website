@@ -1,7 +1,7 @@
 
 # My main website
 
-Website written by me based on the Figma template
+Website written by me based on the [Figma template](https://www.figma.com/community/file/1019201531943162875)
 
 
 ## 🐱‍🏍 Demo
